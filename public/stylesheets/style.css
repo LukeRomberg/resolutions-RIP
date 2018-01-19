@@ -11,6 +11,7 @@ body{
 a{
   text-decoration: none;
   color: black;
+  text-shadow: 0 0 15px white;
 }
 
 header{
@@ -18,7 +19,9 @@ header{
   color: white;
   text-align: center;
 }
-
+.container{
+  background-image: url("https://ak6.picdn.net/shutterstock/videos/1594486/thumb/1.jpg?i10c=img.resize(height:160)");
+}
 .header{
   margin: 0;
   font-size: 3rem;
@@ -49,4 +52,26 @@ padding: 1rem;
 
 .topic{
   font-size: 4rem;
+}
+.add-new{
+  margin-left: 10vw;
+}
+.gif-vote-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 3em;
+}
+.votes{
+  margin: 1em;
+  font-size: 1.5em;
+  width: 50vw;
+  flex-wrap: wrap;
+}
+.title-votes{
+  width: 20vw;
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
+  flex-direction: column;
 }
